@@ -32,7 +32,7 @@ cred = credentials.Certificate(firebase_credentials)
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
-bot_token = '7123684153:AAEEjAUrTpgb-Vya0ENfiQ4BpflITVuRNXI'  # Replace with your bot token
+bot_token = '7123684153:AAG2PKZQ5-a4bz5FMCzt3pOm6XOxb0RGWQk'  # Replace with your bot token
 proxy_api_url = 'https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http,socks4,socks5&timeout=500&country=all&ssl=all&anonymity=all'
 
 # Global iterator for proxies
